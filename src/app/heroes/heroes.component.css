@@ -1,0 +1,11 @@
+li {
+  list-style-type: none;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.selected {
+  color: black;
+}
