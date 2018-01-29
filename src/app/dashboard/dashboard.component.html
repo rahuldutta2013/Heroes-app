@@ -1,6 +1,6 @@
 <p> My Home</p>
 <ul *ngFor="let hero of heroes">
-  <li>
+  <li routerLink="/details/{{hero.id}}">
     {{hero.name}}
   </li>
 </ul>
