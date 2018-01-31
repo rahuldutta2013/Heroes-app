@@ -1,0 +1,4 @@
+<div *ngIf="task">
+  <input type="text" [(ngModel)]="task.task"/>
+  <button (click)="editTask(task)">save</button>
+</div>

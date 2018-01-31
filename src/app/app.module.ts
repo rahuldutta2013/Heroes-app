@@ -9,6 +9,8 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroService } from './hero.service';
 import { AppRoutingModule } from './/app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
+import { TaskDetailComponent } from './task-detail/task-detail.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    DashboardComponent
+    DashboardComponent,
+    ToDoListComponent,
+    TaskDetailComponent
   ],
   imports: [
     BrowserModule,
